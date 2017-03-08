@@ -1,0 +1,4 @@
+input 8
+layer  10
+layer  3
+output 1

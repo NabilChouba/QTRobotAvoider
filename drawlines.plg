@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: drawlines - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6B.tmp" with contents
+[
+/nologo /MD /W3 /ZI /Od /I "C:\qt\include" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "QT_DLL" /D "UNICODE" /D "QT_THREAD_SUPPORT" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrateur\Bureau\Work\FINAL robot c++ interface\confSigmoid.cpp"
+"C:\Documents and Settings\Administrateur\Bureau\Work\FINAL robot c++ interface\connect.cpp"
+"C:\Documents and Settings\Administrateur\Bureau\Work\FINAL robot c++ interface\mocconnect.cpp"
+"C:\Documents and Settings\Administrateur\Bureau\Work\FINAL robot c++ interface\vecteur.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6B.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib imm32.lib winmm.lib wsock32.lib C:\qt\lib\qt-mt230nc.lib C:\qt\lib\qtmain.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/drawlines.pdb" /debug /machine:I386 /out:"Debug/drawlines.exe" /pdbtype:sept 
+".\Debug\confRobot.obj"
+".\Debug\confSigmoid.obj"
+".\Debug\connect.obj"
+".\Debug\enveronement.obj"
+".\Debug\FixedPoint.obj"
+".\Debug\FormCourbe.obj"
+".\Debug\frameChoitArth.obj"
+".\Debug\mocconfRobot.obj"
+".\Debug\mocconfSigmoid.obj"
+".\Debug\mocconnect.obj"
+".\Debug\mocFormCourbe.obj"
+".\Debug\mocframe.obj"
+".\Debug\robot.obj"
+".\Debug\sigmoid.obj"
+".\Debug\vecteur.obj"
+".\Debug\VirtalFloat.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6C.tmp"
+<h3>Output Window</h3>
+Compiling...
+confSigmoid.cpp
+connect.cpp
+mocconnect.cpp
+vecteur.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+drawlines.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
